@@ -1,0 +1,38 @@
+/*Google Font Mulish and Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 900;
+}
+p {
+  font-weight: 400;
+}
+
+.banner {
+  border-radius: 32px;
+  background-image: url("../Images/bgbanner.png"), url("../Images/Rectangle 1.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-attachment: local;
+  background-position: bottom center;
+}
+
+
+
+/* Footer Style Here */
+footer {
+  background: linear-gradient(180deg, rgba(18, 19, 45, 0.05) 0%, rgba(18, 19, 45, 0.00) 100%);
+}
