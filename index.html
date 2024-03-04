@@ -23,49 +23,22 @@
   <body>
 
     <!-- Header Starts Here -->
-    <header class="container mx-auto lg:px-16 px-4 lg:mb-24">
+    <header class="container mx-auto lg:px-16 px-4 lg:mb-24 mb-12">
         <!-- Navbar Starts Here -->
         <nav>
-          <div class="flex justify-between items-center py-9 ">
+          <div class="lg:flex lg:text-start text-center justify-between items-center lg:py-9 py-5">
   
             <div class="">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="text-info-content font-medium menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-                >
-                  <li><a class="">Home</a></li>
-                  <li><a>About</a></li>
-                <li><a>Destination</a></li>
-                <li><a>Search</a></li>
-                </ul>
-              </div>
-              <a class="font-mulish font-extrabold text-2xl lg:text-4xl cursor-pointer">ReTro</a>
+              <a class="font-mulish font-extrabold text-3xl lg:text-4xl cursor-pointer">ReTro</a>
             </div>
   
             <!-- Nav menu  -->
-            <div class="navbar-center hidden lg:flex items-center gap-6">
+            <div class="navbar-center justify-center flex items-center gap-3 lg:gap-6">
               <ul class=" gap-3 text-[#424247] text-info-content menu menu-horizontal px-1 font-bold">
-                <li><a class="p-5 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Home"><i class="fa-solid fa-house"></i></a></li>
-                <li><a class="p-5 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Edit" ><i class="fa-solid fa-pen"></i></a></li>
-                <li><a class="p-5 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="User"><i class="fa-solid fa-user-plus"></i></a></li>
-                <li><a class="p-5 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Flag"><i class="fa-regular fa-font-awesome"></i></a></li>
+                <li><a class="lg:p-5 p-3 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a class="lg:p-5 p-3 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Edit" ><i class="fa-solid fa-pen"></i></a></li>
+                <li><a class="lg:p-5 p-3 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Add"><i class="fa-solid fa-user-plus"></i></a></li>
+                <li><a class="lg:p-5 p-3 flex justify-center items-center border border-[#ddd] rounded-full font-mulish text-xl font-medium hover:bg-transparent text-[#12132D99] tooltip hover:tooltip-open tooltip-top" data-tip="Flag"><i class="fa-regular fa-font-awesome"></i></a></li>
               </ul>
             
   
@@ -74,41 +47,41 @@
                 <button class=" lg:px-10 lg:py-4 lg:rounded-full rounded-full px-4 py-2 font-bold text-sm lg:text-xl bg-[#797DFC] border-none hover:bg-[#797DFC] text-white mt-2 mb-4 font-mulish" >Sign In</button>
             </div>
         </div>
+
           </div>
         </nav>
         <!-- Navbar Ends Here -->
         
         <!-- Banner Section Starts Here -->
         <div class="">
-          <div class="banner lg:px-16 h-auto lg:h-[550px] flex items-center justify-around">
+          <div class="banner-image rounded-[32px] lg:px-16 h-[400px] lg:h-[550px] lg:flex items-center justify-around">
             <!-- Banner Left -->
-            <div class=" lg:space-y-8 w-[620px]">
-              <h1 class="font-mulish pt-4 font-black text-2xl lg:text-6xl">Welcome to the <span class="bg-gradient-to-r from-[#797DFCA1] to-[#797DFC69] text-transparent bg-clip-text">ReTro</span> Forum </h1>
-              <p class="font-mulish text-sm lg:text-lg lg:w-[400px] w-80">Share your favorite opinion and win and wp
-                forum coffee mug!</p>
-                <div class="relative">
-                    <input id="buy-tickets" placeholder="Search here anything" class=" lg:px-5 lg:py-[18px] w-[400px] lg:rounded-full rounded-full px-4 py-2 text-[#03071280] font-medium text-sm lg:text-[16px] mt-2 mb-4 font-mulish" />
-              <button id="buy-tickets" class=" lg:px-7 lg:py-2 lg:rounded-full rounded-full px-4 py-2 font-bold text-sm lg:text-xl bg-[#797DFC] border-none hover:bg-[#797DFC] text-white mt-2 mb-4 font-mulish absolute right-[225px] top-[6px]" >Search</button>
+            <div class=" lg:text-start text-center lg:space-y-8 lg:w-[620px]">
+              <h1 class="font-mulish pt-6 font-black text-3xl lg:text-6xl">Welcome to the <span class="bg-gradient-to-r from-[#797DFCA1] to-[#797DFC69] text-transparent bg-clip-text">ReTro</span> Forum </h1>
+              <p class="mx-auto lg:mx-0 font-mulish text-sm lg:text-lg lg:w-[400px] w-80">Discover the ReTro Forum where nostalgia meets vibrant community.</p>
+                <div class="">
+                    <input id="input-field"  placeholder="Search here anything" class=" lg:px-5 lg:py-[18px] w-[240px] lg:w-[400px] lg:rounded-full rounded-full px-4 py-2 text-[#03071280] font-medium text-[12px] lg:text-[16px] mt-2 mb-4 font-mulish"/>
+              <button onclick="searchByCategory()" class=" lg:px-7 lg:py-2 lg:rounded-full rounded-full px-4 py-1 font-bold text-sm lg:text-xl bg-[#797DFC] border-none hover:bg-[#797DFC] text-white mt-2 mb-4  font-mulish ml-[-85px] lg:ml-[-132px]" >Search</button>
                 </div>
             </div>
 
             <!-- banner right -->
-            <div class="p-12 bg-white rounded-[32px] space-y-6">
+            <div class=" lg:w-[400px] w-[250px] mx-auto p-5 lg:p-12 bg-white rounded-[32px] lg:space-y-6 space-y-2">
                 <div class="flex justify-between items-center gap-5">
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">Registered Users</p>
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">01</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">Registered Users</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">01</p>
                 </div>
                 <div class="flex justify-between items-center gap-5">
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">Forum</p>
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">05</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">Forum</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">05</p>
                 </div>
                 <div class="flex justify-between items-center gap-5">
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">Topics</p>
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">01</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">Topics</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">01</p>
                 </div>
                 <div class="flex justify-between items-center gap-5">
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">Replies</p>
-                    <p class="font-mulish font-medium text-2xl text-[#12132DCC]">01</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">Replies</p>
+                    <p class="font-mulish font-medium lg:text-2xl text-lg text-[#12132DCC]">01</p>
                 </div>
             </div>
           </div>
@@ -126,141 +99,63 @@
                     Let's Discuss
                 </h2>
                 <p class="font-inter text-sm lg:text-lg text-[#12132D99] lg:w-[690px] w-80 mx-auto">
-                    Yes, you can run unit tests and view the results directly within the app. The
-                    integrated testing features allow for a streamlined .
+                  Retro Forum invites nostalgic conversation, reminiscing, and shared enthusiasm for vintage topics within a welcoming and interactive community.
                 </p>
               </div>
 
-              <!-- Select Your Seat -->
+            <!-- Loading -->
+            <div id="loading" class="flex justify-center mr-28 my-24 hidden">
+              <span class="loading loading-spinner loading-lg"></span>
+          </div>
+
+              <!-- Posts -->
           <div class="lg:flex bg-white lg:p-5 p-4 rounded-3xl justify-between gap-6">
-            <!-- Left Seat -->
-            <div class="lg:flex-1 space-y-6">
 
-                <!-- card 1 -->
-              <div class="flex bg-[#797DFC1A] w-full rounded-3xl border border-[#797DFC] shadow p-10 gap-6">
-                <!-- Image -->
-                <div class="relative">
-                    <img class=" w-[85px] h-[62px] rounded-2xl" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
-                    <div class="p-[7px] rounded-full bg-[#10B981] absolute top-[-5px] right-[-5px]">
-                    </div>
-                    <img src="" alt="">
-                </div>
-                
-                <!-- Content -->
-                <div>
-                    <div class="flex gap-5 mb-3">
-                        <p class="font-inter text-sm font-medium text-[#12132DCC]"># Music</p>
-                        <p class="font-inter text-sm font-medium text-[#12132DCC]">Author : Awlad Hossain</p>
-                    </div>
-                    <div class="pb-5 mb-2 border-b-2 border-dashed border-[#12132D40]">
-                        <h2 class="mb-4 font-mulish text-xl font-bold text-[#12132D]">10 Kids Unaware of Their Halloween Costume</h2>
-                        <p class="font-inter text-sm lg:text-[16px] text-[#12132D99]">
-                            It's one thing to subject yourself to ha Halloween costume mishap because, hey that's your prerogative
-                        </p>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <div class="flex pt-3 gap-6 text-[#12132D99] font-inter text-[16px]">
-                            <p class="space-x-1">
-                                <span><i class="fa-regular fa-message"></i></span>
-                                <span>560</span>
-                            </p>
-                            <p class="space-x-1">
-                                <span><i class="fa-regular fa-eye"></i></span>
-                                <span>1,568</span>
-                            </p>
-                            <p class="space-x-1">
-                                <span><i class="fa-regular fa-clock"></i></span>
-                                <span>5 min</span>
-                            </p>
-                        </div>
-                        <div class="p-2 flex justify-center items-center bg-[#10B981] rounded-full">
-                            <i class="fa-solid fa-envelope-open text-white text-[16px]"></i>
-                        </div>
-                    </div>
-                </div>
-
-              </div>
-
-                <!-- card 2 -->
-                <div class="flex bg-[#797DFC1A] w-full rounded-3xl border border-[#797DFC] shadow p-10 gap-6">
-                  <!-- Image -->
-                  <div class="relative">
-                      <img class=" w-[85px] h-[62px] rounded-2xl" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
-                      <div class="p-[7px] rounded-full bg-[#10B981] absolute top-[-5px] right-[-5px]">
-                      </div>
-                      <img src="" alt="">
-                  </div>
-                  
-                  <!-- Content -->
-                  <div>
-                      <div class="flex gap-5 mb-3">
-                          <p class="font-inter text-sm font-medium text-[#12132DCC]"># Music</p>
-                          <p class="font-inter text-sm font-medium text-[#12132DCC]">Author : Awlad Hossain</p>
-                      </div>
-                      <div class="pb-5 mb-2 border-b-2 border-dashed border-[#12132D40]">
-                          <h2 class="mb-4 font-mulish text-xl font-bold text-[#12132D]">10 Kids Unaware of Their Halloween Costume</h2>
-                          <p class="font-inter text-sm lg:text-[16px] text-[#12132D99]">
-                              It's one thing to subject yourself to ha Halloween costume mishap because, hey that's your prerogative
-                          </p>
-                      </div>
-                      <div class="flex items-center justify-between">
-                          <div class="flex pt-3 gap-6 text-[#12132D99] font-inter text-[16px]">
-                              <p class="space-x-1">
-                                  <span><i class="fa-regular fa-message"></i></span>
-                                  <span>560</span>
-                              </p>
-                              <p class="space-x-1">
-                                  <span><i class="fa-regular fa-eye"></i></span>
-                                  <span>1,568</span>
-                              </p>
-                              <p class="space-x-1">
-                                  <span><i class="fa-regular fa-clock"></i></span>
-                                  <span>5 min</span>
-                              </p>
-                          </div>
-                          <div class="p-2 flex justify-center items-center bg-[#10B981] rounded-full">
-                              <i class="fa-solid fa-envelope-open text-white text-[16px]"></i>
-                          </div>
-                      </div>
-                  </div>
-  
-                </div>
-
+            <!-- Left Post -->
+            <div id="post-container" class="lg:flex-1 space-y-6">
             </div>
-
-            <!-- Right Seat -->
-            <div class="lg:w-[35%] lg:pt-0 pt-8">
+            <!-- Right Post -->
+            <div id="make-read-p" class="lg:w-[35%] lg:pt-0 pt-8">
               
               <div class="bg-[#F7F8F8] p-6 rounded-3xl">
 
                 <!--Mark as read count-->
-                <div class="flex justify-between items-center pb-3">
+                <div>
+                  <div class="flex justify-between items-center pb-3">
                     <p class="font-ulish font-bold text-xl text-[#12132D]">Title</p>
-                  <p class="font-inter text-[16px] text-[#12132D99]"><i class="fa-solid fa-check-double text-[#3DCE09] mr-2"></i> Mark as read (<span>4</span>)</p>
+                  <p class="font-inter text-[16px] text-[#12132D99]"><i class="fa-solid fa-check-double text-[#3DCE09] mr-2"></i> Mark as read (<span id="count" >0</span>)</p>
                   
                 </div>
                  
-                <!-- append -->
-                <div class="flex justify-around items-center bg-white p-4 rounded-2xl mb-4">
-                  <p class="w-[75%] font-mulish font-semibold text-[16px] text-[#12132D]">10 Kids Unaware of Their
-                    Halloween Costume</p>
-                    <p class="font-inter space-x-1 text-[#12132D99]">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span>1,568</span>
-                    </p>
+                <!-- append --> 
+                <div id="post-read-container">
                 </div>
-                <div class="flex justify-around items-center bg-white p-4 rounded-2xl">
-                  <p class="w-[75%] font-mulish font-semibold text-[16px] text-[#12132D]">10 Kids Unaware of Their
-                    Halloween Costume</p>
-                    <p class="font-inter space-x-1 text-[#12132D99]">
-                    <span><i class="fa-regular fa-eye"></i></span>
-                    <span>1,568</span>
-                    </p>
+
                 </div>
           </div>
         </div>
         </section>
         <!-- Let’s Discuss Ends Here -->
+
+        <!-- Join Our Forum Start Here -->
+        <section class="lg:mt-24 mb-12">
+          <div class="">
+            <div class="banner2 lg:text-start text-center lg:px-16 h-[300px] lg:h-[400px] flex items-center justify-between">
+              <div class="space-y-4 lg:space-y-8 w-[620px]">
+                <h1 class="font-mulish pt-4 font-black text-3xl lg:text-[40px]">Join Our Forum</h1>
+                <p class="font-medium text-[#FFFFFFCC] font-mulish text-sm lg:text-lg lg:w-[400px] lg:px-0 px-3">
+                  Join our forum share ideas, seek knowledge, and build connections within a vibrant community of like-minded individuals.</p>
+                  <div>
+                <button class=" lg:px-10 lg:py-4 lg:rounded-full rounded-full px-4 py-2 font-bold text-sm lg:text-xl bg-[#797DFC] border-none hover:bg-[#797DFC] text-white mt-2 mb-4 font-mulish" >Registered Now</button>
+                  </div>
+              </div>
+              <div class="lg:flex hidden">
+                <img src="images/joinforum.png" alt="">
+              </div>
+            </div>
+        </div>
+        </section>
+        <!-- Join Our Forum Ends Here -->
 
         <!-- Latest Posts Starts Here -->
         <section class="lg:mt-24">
@@ -270,85 +165,13 @@
                     Latest Posts
                 </h2>
                 <p class="font-inter text-sm lg:text-lg text-[#12132D99] lg:w-[690px] w-80 mx-auto">
-                    Yes, you can run unit tests and view the results directly within the app. The
-                    integrated testing features allow for a streamlined .
+                  Explore Retro Forum's Latest Posts for a journey through time, discovering new discussions, insights, and perspectives on classic subjects.
                 </p>
               </div>
 
               <!-- Post Items -->
-              <div class="flex justify-between items-center gap-6">
+              <div id="latest-post-container" class="lg:flex lg:space-y-0 space-y-6 justify-between items-center gap-6">
                 
-                <!-- Post 1 -->
-              <div class="card w-96 border border-[#12132D26] rounded-3xl p-6">
-                <div class="">
-                    <img class="rounded-[20px]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-                </div>
-
-                <div class="card-body p-0">
-                    <p class="font-mulish text-[16px] text-[#12132D99] mt-6"><i class="fa-regular fa-calendar mr-2"></i> 29 January 2024</p>
-                  <h2 class="card-title font-mulish text-lg font-extrabold text-[#12132D]">What will a mars habitat force that impact in our daily life!!!</h2>
-                  <p class="font-mulish text-[16px] text-[#12132D99]">Yes, you can run unit tests and view the results directly within the app. </p>
-                  <div class="flex gap-5 mt-4">
-                    <div>
-                      <img class="w-12 h-12 rounded-full" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
-                    </div>
-                    <div>
-                      <h2 class="text-base font-bold font-mulish text-[16px] text-[#12132D]">Cameron Williamson</h2>
-                      <h3 class="flex gap-2 items-center py-2">
-                        <span class="font-mulish text-sm text-[#12132D99]">Unknown</span>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-                <!-- Post 2 -->
-              <div class="card w-96 border border-[#12132D26] rounded-3xl p-6">
-                <div class="">
-                    <img class="rounded-[20px]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-                </div>
-
-                <div class="card-body p-0">
-                    <p class="font-mulish text-[16px] text-[#12132D99] mt-6"><i class="fa-regular fa-calendar mr-2"></i> 29 January 2024</p>
-                  <h2 class="card-title font-mulish text-lg font-extrabold text-[#12132D]">What will a mars habitat force that impact in our daily life!!!</h2>
-                  <p class="font-mulish text-[16px] text-[#12132D99]">Yes, you can run unit tests and view the results directly within the app. </p>
-                  <div class="flex gap-5 mt-4">
-                    <div>
-                      <img class="w-12 h-12 rounded-full" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
-                    </div>
-                    <div>
-                      <h2 class="text-base font-bold font-mulish text-[16px] text-[#12132D]">Cameron Williamson</h2>
-                      <h3 class="flex gap-2 items-center py-2">
-                        <span class="font-mulish text-sm text-[#12132D99]">Unknown</span>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-                <!-- Post 3 -->
-              <div class="card w-96 border border-[#12132D26] rounded-3xl p-6">
-                <div class="">
-                    <img class="rounded-[20px]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
-                </div>
-
-                <div class="card-body p-0">
-                    <p class="font-mulish text-[16px] text-[#12132D99] mt-6"><i class="fa-regular fa-calendar mr-2"></i> 29 January 2024</p>
-                  <h2 class="card-title font-mulish text-lg font-extrabold text-[#12132D]">What will a mars habitat force that impact in our daily life!!!</h2>
-                  <p class="font-mulish text-[16px] text-[#12132D99]">Yes, you can run unit tests and view the results directly within the app. </p>
-                  <div class="flex gap-5 mt-4">
-                    <div>
-                      <img class="w-12 h-12 rounded-full" src="https://i.ibb.co/D9wWRM6/olivia.jpg" alt="">
-                    </div>
-                    <div>
-                      <h2 class="text-base font-bold font-mulish text-[16px] text-[#12132D]">Cameron Williamson</h2>
-                      <h3 class="flex gap-2 items-center py-2">
-                        <span class="font-mulish text-sm text-[#12132D99]">Unknown</span>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
               </div>
         </section>
         <!-- Latest Posts Ends Here -->
@@ -356,24 +179,24 @@
 
     <!-- Footer Section Starts Here -->
     <footer class="mt-[60px]">
-        <div class="container mx-auto lg:px-16 lg:py-24 px-8 lg:mt-24">
+        <div class="container mx-auto lg:px-16 lg:py-24 py-10 px-8 lg:mt-24">
 
                 <div class="text-center">
                     <h2 class="font-mulish text-[#12132D] text-3xl lg:text-[36px] lg:mb-4 mb-2 font-black">
                         ReTro
                     </h2>
                     <p class="font-mulish text-sm lg:text-[16px] text-[#12132DB2] lg:w-[690px] w-80 mx-auto">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+                      Explore the ReTro Forum: Engage in nostalgic conversations, share memories, and connect with fellow enthusiasts in our vibrant community.
                     </p>
 
-                    <div class="border-b space-x-7 border-[#30325E1A] pb-12 mt-8">
+                    <div class="border-b space-x-7 border-[#30325E1A] pb-7 llg:pb-12 mt-8">
                         <a class="text-2xl" href=""><i class="fa-brands fa-twitter"></i></a>
                         <a class="text-2xl" href=""><i class="fa-brands fa-facebook-f"></i></a>
                         <a class="text-2xl " href=""><i class="fa-brands fa-instagram"></i></a>
                         <a class="text-2xl" href=""><i class="fa-brands fa-github"></i></a>
                     </div>
 
-                    <p class="mt-12 font-mulish text-[#12132D80]"> 2024. All rights reserved. Developed by <a class="text-[#12132D]" href="">Sohana Karniz</a></p>
+                    <p class="lg:mt-12 mt-7 font-mulish text-[#12132D80]"> 2024. All rights reserved. Developed by <a class="text-[#12132D]" href="">Sohana Karniz</a></p>
                   </div>
         </div>
       </footer>

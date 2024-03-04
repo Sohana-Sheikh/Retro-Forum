@@ -20,14 +20,23 @@ p {
   font-weight: 400;
 }
 
-.banner {
-  border-radius: 32px;
+.banner-image {
   background-image: url("../Images/bgbanner.png"), url("../Images/Rectangle 1.png");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   background-attachment: local;
-  background-position: bottom center;
+  background-position:center center ;
+}
+
+.banner2 {
+  border-radius: 32px;
+  background-image: url("../Images/Rectangle 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-attachment: local;
+  background-position:center center;
 }
 
 
